@@ -15,3 +15,7 @@
 ## _Code 401_ - Advanced Software Development
 
 [Not Ready yet]()
+
+| Read                             | Links                                    |
+| -------------------------------- | ---------------------------------------- |
+| RESPONSIVE WEB DESIGN and FLOATS | [Articls](reading-notes-301/../lab00.md) |
