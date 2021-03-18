@@ -97,5 +97,5 @@
 
 # Resources
 
-[Responsive Web Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
+[Responsive Web Design](https://learn.shayhowe.com/advanced-html-css/responsive-web-design/)  
 [All About Floats](https://css-tricks.com/all-about-floats/)
