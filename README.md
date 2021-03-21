@@ -16,7 +16,7 @@
 
 [Not Ready yet]()
 
-| Read                             | Links                                    |
-| -------------------------------- | ---------------------------------------- |
-| RESPONSIVE WEB DESIGN and FLOATS | [Articls](reading-notes-301/../lab00.md) |
-| jQuery, Events, and The DOM      | [Articls](reading-notes-301/../lab01.md) |
+| Read                             | Links                                     |
+| -------------------------------- | ----------------------------------------- |
+| RESPONSIVE WEB DESIGN and FLOATS | [Read: 01](reading-notes-301/../lab00.md) |
+| jQuery, Events, and The DOM      | [Read: 02](reading-notes-301/../lab01.md) |
