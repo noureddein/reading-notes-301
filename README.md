@@ -19,3 +19,4 @@
 | Read                             | Links                                    |
 | -------------------------------- | ---------------------------------------- |
 | RESPONSIVE WEB DESIGN and FLOATS | [Articls](reading-notes-301/../lab00.md) |
+| jQuery, Events, and The DOM      | [Articls](reading-notes-301/../lab01.md) |
