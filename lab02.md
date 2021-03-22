@@ -24,7 +24,7 @@
 ### to use Mustache we should add the script file to the HTML page `https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.1.0/mustache.js`
 
 #### Source 
-![Youtube](https://www.youtube.com/watch?v=mguNnJP5drw)
-![Article](https://1sherlynn.medium.com/javascript-templating-language-and-engine-mustache-js-with-node-and-express-f4c2530e73b2)
-![CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-![Flex-box tutorial](https://flexboxfroggy.com/)
+[Youtube](https://www.youtube.com/watch?v=mguNnJP5drw)
+[Article](https://1sherlynn.medium.com/javascript-templating-language-and-engine-mustache-js-with-node-and-express-f4c2530e73b2)
+[CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[Flex-box tutorial](https://flexboxfroggy.com/)
