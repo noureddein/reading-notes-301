@@ -9,13 +9,13 @@
 ## For Ex. `let data = '<p> Name:{{name}}:</p>' + '<p>Phon Number:{{phone}}:</p>'`
 
 ## the name and phone above called delimiter or hook
-## So,with Mustache.js I can itirate all the items inside the JSON file below and pass it to the templet by `Mustache.render(data,items)`
+### So,with Mustache.js I can itirate all the items inside the JSON file below and pass it to the templet by `Mustache.render(data,items)`
 `[
         {
                 "name":"Nour",
                 "phone":"123456"
 
-        }
+        },
         {
                 "name":"ahmad",
                 "phone":"123456"
@@ -23,5 +23,5 @@
         }
 ]`
 
-## to use Mustache we should add the script file to the HTML page `https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.1.0/mustache.js`
+### to use Mustache we should add the script file to the HTML page `https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.1.0/mustache.js`
 
