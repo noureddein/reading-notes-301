@@ -10,7 +10,7 @@
 
 ## _Code 301_ - Intermediate Software Development
 
-[Reading Notes 301](https://noureddein.github.io/reading-notes-301/)
+[You are in my reading not 301](https://noureddein.github.io/reading-notes-301/)
 
 ## _Code 401_ - Advanced Software Development
 
@@ -20,3 +20,4 @@
 | -------------------------------- | ----------------------------------------- |
 | RESPONSIVE WEB DESIGN and FLOATS | [Read: 01](reading-notes-301/../lab00.md) |
 | jQuery, Events, and The DOM      | [Read: 02](reading-notes-301/../lab01.md) |
+| MUSTACHE and FLEXBOX             | [Read: 03](reading-notes-301/../lab02.md) |
