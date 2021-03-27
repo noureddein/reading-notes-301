@@ -23,3 +23,4 @@
 | MUSTACHE and FLEXBOX              | [Read: 03](reading-notes-301/../lab02.md) |
 | Regex and CSS Grid                | [Read: 04](reading-notes-301/../lab03.md) |
 | Deploying a Simple Blog to Heroku | [Read: 05](reading-notes-301/../lab04.md) |
+| Node, Express, and APIs           | [Read: 06](reading-notes-301/../lab05.md) |
