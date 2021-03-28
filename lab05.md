@@ -1,27 +1,33 @@
-# Node, Express, and APIs
+# Deploying a Simple Blog to Heroku
 
-## What Is Node.js?
+> Node.js
+>
+> > is an open source, cross-platform runtime environment, which allows you to build server-side and networking applications.and it is written in JavaScript
 
-## Node.js is a technology that reduces the time of waiting when users request information from the database.
+# **Heroku** : is a cloud application platform it turn local server into a world wide server.
 
-> Nide.js is built on Google chrom's V8 JavaScript engine
+### To creat our first web page we will declare some veriables
 
-## Node.js Has Excellent Support for Modern JavaScript(ES6)
+`var http = require("http");`
+`var fs = require("fs");`
+`var path = require("path");`
+`var mime = require("mime");`
 
-## **npm** **(Node Package Manager)** is the world's largest Software Registry.The registry contains over 800,000 code packages.it's free. npm is installed with Node.js, This means that you have to install Node.js to get npm.
+- The first one will give you the key to Node's HTTP functionality.
+- The second one is for possibility to interact with the file system.
+- The third one allows you to handle file paths.
+  -The last one allows you to determine a file's MIME-type.
 
-## We can install npm package **globally** and **Locally**, gloally to use it with all projects and locally to a specific project.
+### Then Create `package.json` to contain project information
 
-## Node.js lets us run JavaScript on the server
+### The third step create **send404()** function to handle 404 error (which usually appears when requested file doesn't exist).
 
-> JS is a single threaded programing language single threaded runtime. So,it can do one thing at a time(one piece of code at a time).
+`function send404(response) { response.writeHead(404, {"Content-type" : "text/plain"}); response.write("Error 404: resource not found"); response.end(); }`
 
-## Node is particularly suited to building applications that require some form of real-time interaction or collaboration
+### To deploy our project:
 
-## The Benefits of Node.js
-
-- Robust technology stack
-- Fast-processing and event-based model
-- Scalable technology for microservices
-- Rich ecosystem
-- Strong corporate support
+- from the folder that hold our project create a new repo with this command `git init`
+- the `git add .`
+- Now, We should commit our file to repo `git commit -m "YOUR_COMMENT"`
+- Then We should create our Heroky application `heroku create`. Heroku will generate a random name for your application and we can change it.
+- every heroku app starts with no **branches and no code** o, the first time we deploy our project, we need to specify a remote branch to push to: `git push heroku Branch_Name`

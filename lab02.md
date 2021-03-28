@@ -1,24 +1,66 @@
-# Javascript Templating Language and Engine— Mustache.js with Node and Express
+# Chapter 7: jQuery
 
-## Javascript templating is a fast and efficient technique to render client-side view templates with Javascript by using a JSON data source. The template is HTML markup, with added templating tags that will either insert variables or run programming logic.
+## jQuery offers a simple way to achieve a variety of common JavaScript tasks quickly and consistently, across all major browsers and without any fallback code needed.
 
-## The template engine then replaces variables and instances declared in a template file with actual values at runtime, and convert the template into an HTML file sent to the client.
+## What is jQuery ??
 
-### Mustache.js is used to make a HTML template and fill it from JSON file
+### jQuery is a JavaScript file that you include in your we pagws.it lets you find elements using CSS-style selectors and then do somthing with the elements using jQuery methods.
 
-## For Ex. `let data = '<p> Name:{{name}}:</p>' + '<p>Phon Number:{{phone}}:</p>'`
+## How to find elements using CSS-Style selectors?
 
-## the name and phone above called delimiter or hook
+![find elements](./img-lab01/find-elements.png)
 
-### So,with Mustache.js I can itirate all the items inside the JSON file below and pass it to the templet by `Mustache.render(data,items)`
+## How to do something with the elements using jQuery methods?
 
-`[ { "name":"Nour", "phone":"123456" }, { "name":"ahmad", "phone":"123456" } ]`
+![use-methods](./img-lab01/use-methods.png)
 
-### to use Mustache we should add the script file to the HTML page `https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.1.0/mustache.js`
+## WHY USE JQUERY?
 
-#### Source
+1 - SIMPLE SELECTORS
+2- COMMON TASKS IN LESS CODE
+3- CROSS-BROWSER COMPATIBILITY
 
-[Youtube](https://www.youtube.com/watch?v=mguNnJP5drw) <hr>
-[Article](https://1sherlynn.medium.com/javascript-templating-language-and-engine-mustache-js-with-node-and-express-f4c2530e73b2) <hr>
-[CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) <hr>
-[Flex-box tutorial](https://flexboxfroggy.com/) <hr>
+> jQuery's motto is " **Write less, do more,**" because it allows you to achieve the same goals but in fewer lines of code than you would need to write with plain JavaScript.
+
+## A matched set/ jQuery selection
+
+### When you select one or more elements, a jQuery object is returnd. It is also known as a matched set or a jQuery selection.
+
+![matched set](./img-lab01/matched-set.png)
+
+## jQuery methods that get and set data
+
+### Some jQuery methods both retrieve information from, and update the contents ofelements, But they do not always apply to all elements.
+
+![set-and-get-data](./img-lab01/set-and-get-data.png)
+
+## Checking a pages is ready to work with
+
+### jQuery .redy() method check that the page is ready for your code to work with.
+
+![checkpage ready](./img-lab01/checkpage-ready.png)
+
+## UPDATING ELEMENTS
+
+- .html() : get the html tag
+- .text() : get the content inside the tag
+- .replaceWith() : replace the element tag
+- .remove() : remove the element
+
+## INSERTING ELEMENTS
+
+- Create the new elements in a jQuery object
+  - for example `var $newFragment = $('<li>');`
+- ADDING THE NEW ELEMENTS TO THE PAGE by
+  - .before()
+  - .after()
+  - .prepend()
+  - .append()
+
+## WHERE TO PLACE YOUR SCRIPTS
+
+![where-to-put-scribt](./img-lab01/where-to-put-scribt.png)
+
+## Effects
+
+![effect](./img-lab01/effect.png)
