@@ -26,3 +26,4 @@
 | Node, Express, and APIs           | [Read: 06](reading-notes-301/../lab06.md) |
 | APIs continued                    | [Read: 07](reading-notes-301/../lab07.md) |
 | SQL                               | [Read: 08](reading-notes-301/../lab08.md) |
+| Refactoring                       | [Read: 09](reading-notes-301/../lab09.md) |
