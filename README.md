@@ -13,3 +13,4 @@
 | Refactoring                       | [Read: 09](reading-notes-301/../lab09.md) |
 | The Call Stack and Debugging      | [Read: 10](reading-notes-301/../lab10.md) |
 | EJS                               | [Read: 11](reading-notes-301/../lab11.md) |
+| EJS Partials                      | [Read: 11](reading-notes-301/../lab12.md) |
