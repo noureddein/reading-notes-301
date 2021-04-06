@@ -15,3 +15,4 @@
 | EJS                               | [Read: 11](reading-notes-301/../lab11.md) |
 | EJS Partials                      | [Read: 12](reading-notes-301/../lab12.md) |
 | Readings: SENDING FORM DATA       | [Read: 13](reading-notes-301/../lab13.md) |
+| Readings: DATABASE NORMALIZATION  | [Read: 14](reading-notes-301/../lab14.md) |
